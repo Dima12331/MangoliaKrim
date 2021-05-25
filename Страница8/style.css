@@ -1,0 +1,141 @@
+body{
+    background: url(img/siti.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#main{
+    background-color: #f8deaf;
+    width: 1600px;
+    height: 5400px;
+    margin: 0 auto ;
+    border: 2px solid rgb(0, 0, 0);
+}
+#head{
+    width: 1600px;
+    height: 150px;
+    background-color: #f8deaf;
+    
+}
+#menu{
+    width: 1600px;
+    height: 60px;
+    background: url(img/menu.png);
+    box-shadow:0 0 20px  #2996df;
+    background-size: 100%;
+}
+#nav{
+    background-color: khaki;
+    border-top: lightcoral;
+    border-bottom: lightcoral;
+    margin-left: 570px;
+    
+}
+#nav li{
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+}
+#nav a{
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+}
+#nav li:last-child a {
+    border-right: none;
+}
+#nav a:hover {
+    font-weight: bold;
+}
+#na:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.cards{
+    float:left;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px ;
+    }
+    .card{
+    background-color: #2996df;/*Цвет*/
+    border-radius: 15px;/*Скруление углов*/
+    padding: 20px 20px 30px 20px;/*Внутренний отступ*/
+    display: inline-block;/*Тип элемента*/
+    text-align: center;/*Местонахождение текста*/
+    width: 1100px;
+    height: 5050px;
+    margin-left: 80px;
+    }
+    .card-heading, .card-text{
+    text-align: left;/*Выравнивание текста*/
+    }
+    .card-image-container{
+        display: inline-block;/*Тип элемента*/
+        padding: 10px;/*Внутренний отступ*/
+        margin-bottom: 20px;/*Отступ снизу*/
+    }
+    .card-image{
+        width: 800px;/*Ширина*/
+        display: block;/*Тип элемента*/
+    }
+    #button1{
+        text-decoration: none;/*Задает подчеркивание для текста сверху или снизу*/
+        display: inline-block;/*Задает тип элемента и позволяет менять поведение элемента в потоке, а так же меняет работу некоторых CSS свойств в соответствии с выбранным типом.*/
+        line-height: 40px;/*Задает межстрочный отступ для текста*/
+        padding: 0px 30px;/*внутреннего отступа у элемента*/
+        text-transform: uppercase;/*Задает регистр текста*/
+        letter-spacing: 2px;/*отступ между символами*/
+        font-size: 18px;/*размер шрифта*/
+        top: 0;/*позиция от верхнего края*/
+        position: relative;/* позиционирование фонового изображения элемента*/
+        border: 1px solid black;
+        right: 400px;
+        margin-top: 100px;
+        
+    }
+    #button_1{
+        color: #fff;/*Цвет*/
+        box-shadow: 0 5px 0px ;/*Тень*/
+        transition-duration: 1s, 100ms, 100ms;/*Задает длительность перехода свойств из одного значения в другое*/
+        transition-property: background-color, top;/*свойство плавного перехода*/
+        transition-delay: 0s, 0.5s, 0.5s;/*Задает задержку перед запуском эффекта перехода свойства при изменении его значения*/
+    }
+    #button_1:hover{
+        top: 2px;/*позиция от верхнего края*/
+        box-shadow: 0 3px 0px ;/*Тень*/
+        transition-timing-function: ease-in-out;/**/
+    }
+    #button2{
+        text-decoration: none;/*Задает подчеркивание для текста сверху или снизу*/
+        display: inline-block;/*Задает тип элемента и позволяет менять поведение элемента в потоке, а так же меняет работу некоторых CSS свойств в соответствии с выбранным типом.*/
+        line-height: 40px;/*Задает межстрочный отступ для текста*/
+        padding: 0px 30px;/*внутреннего отступа у элемента*/
+        text-transform: uppercase;/*Задает регистр текста*/
+        letter-spacing: 2px;/*отступ между символами*/
+        font-size: 18px;/*размер шрифта*/
+        top: 0;/*позиция от верхнего края*/
+        position: relative;/* позиционирование фонового изображения элемента*/
+        border: 1px solid black;
+        left: 400px;
+        margin-top: 180px;
+    }
+    #button_2{
+        color: #fff;/*Цвет*/
+        box-shadow: 0 5px 0px ;/*Тень*/
+        transition-duration: 1s, 100ms, 100ms;/*Задает длительность перехода свойств из одного значения в другое*/
+        transition-property: background-color, top;/*свойство плавного перехода*/
+        transition-delay: 0s, 0.5s, 0.5s;/*Задает задержку перед запуском эффекта перехода свойства при изменении его значения*/
+    }
+    #button_2:hover{
+        top: 2px;/*позиция от верхнего края*/
+        box-shadow: 0 3px 0px ;/*Тень*/
+        transition-timing-function: ease-in-out;/**/
+    }
+    .kartinka{
+        width: 350px;
+        height: 290px;
+    }
